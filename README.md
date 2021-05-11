@@ -2,7 +2,7 @@
 
 ## :clap: WELKOM :clap:
 
-Welkom bij onze Sport website!!
+:clap: :soccer: Welkom bij onze Sport website!! :soccer: :clap:
 
 Op deze website kunt u informatie terug vinden over bepaalde sportoefeningen.
 Daarbij geven wij informatie vrij over voedingsschema's, cardio oefeningen en bewegingsoefening.
