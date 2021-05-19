@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SportU</title>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/HomeStyle.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- HAMBURGER MENU -->
+  <link rel="stylesheet" href="css/menuoverlay.css">
+  <script src="Javascript files/mobilenav.js"></script>
+  <!-- END HAMBURGER MENU -->
 </head>
 
 <style>
@@ -21,6 +26,28 @@
 </style>
 
 <body>
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+
+    <!-- Overlay Content -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="HomePagina.html">Home</a>
+        <a href="infopage.html">Fitness</a>
+        <a href="#">Voedings Schema</a>
+        <a href="#">Workout Video's</a>
+        <a href="#">Webshop</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+<!-- END OVERLAY-->
+
+<!-- ICON HAMBURGER MENU -->
+<div class="hamburger">
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; <Menu></Menu></span>
+</div>
+<!-- END ICON HAMBURGER MENU -->
+
     <img data-aos="zoom-in" class="afbeeldingomheen" src="scripts/mainafb.png">
     <img data-aos="zoom-in-right" data-aos-duration="3000" data-aos-delay="300" class="afbeeldingomheen2" src="scripts/afb2.png">
 
@@ -28,7 +55,7 @@
 
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
         <h2 class="w3-wide" data-aos="zoom-in-up" data-aos-offset="0">Onze Website</h2>
-        <p class="w3-opacity" data-aos="zoom-in-up" data-aos-offset="0"><i>Start Nu Niet Morgen!</i></p>
+        <p class="w3-opacity" data-aos="zoom-in-up" data-aos-offset="0"><i>Start Nu, Niet Morgen!</i></p>
         <p class="w3-justify" data-aos="zoom-in-up" data-aos-offset="0" data-aos-delay="300">Wij zijn een sport website die met een leuke en enthousiaste manier sport aanbied dat u thuis kan doen!
             Wij willen sporten en motivatie in 1 gooien waardoor u weer lekker fit voelt. Ook bieden wij producten aan waarmee u het sporten nog leuker maakt!
             Ook bieden wij sport video's en tuturials aan waarmee u met begeleiding mee kan sporten! Doe het thuis doe het buiten doe het waar en waneer u wilt!
