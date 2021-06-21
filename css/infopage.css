@@ -79,13 +79,17 @@ body{
 }
 
 .classsize{
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
     text-align: left;
+    padding-left: 20px !important;
 }
 
+
 .classsize2{
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
     text-align: left;
+    padding-right: 20px !important;
+
 }
 
 .classwidth{
@@ -111,5 +115,5 @@ body{
 }
 
 .space{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }

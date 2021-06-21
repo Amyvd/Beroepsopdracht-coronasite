@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Navigatie.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="stylecontact.css">
+
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+</style>
+
+<body>
+  <nav>
+    
+<!-- end begin page -->
+
+<div class="container">
+  <div class="row">
+      <h1>Contact</h1>
+  </div>
+  <div class="row">
+      <h4>We horen graag van je!</h4>
+  </div>
+  <form action="mail.php" method="POST">
+    <fieldset class="row input-container">
+      <div class="col-xs-12">
+        <p class="maininfobox">Contact Informatie</p>
+        <div class="styled-input wide">
+          <input type="text" required name="Naam">
+          <label>Naam</label>
+        </div>
+        <div class="styled-input wide">
+          <input type="email" required name="email">
+          <label>e-mail</label>
+        </div>
+        <div class="styled-input wide">
+          <input type="text" required name="Telefoon">
+          <label>Telefoon</label>
+        </div>
+        <div class="styled-input wide">
+          <p class="maininfobox">Bericht</p><br>
+          <textarea name="message" rows="8" cols="29"></textarea>
+            <br><br>
+          <input class="btn-lrg submit-btn" type="submit" value="Versturen"><br>
+          <input class="btn-lrg submit-btn" type="reset" value="Verschonen">
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+
+</html>
